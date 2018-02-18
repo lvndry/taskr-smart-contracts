@@ -1,4 +1,4 @@
-var Taskr = artifacts.require("./Task.sol");
+var Taskr = artifacts.require("./Taskr.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(Taskr);
